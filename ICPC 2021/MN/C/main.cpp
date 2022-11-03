@@ -15,7 +15,7 @@ typedef vector<ll> vii;
 
 const int maxn = 1e5 + 5;
 string s;
-int k;
+long long k;
 bool cmp(pii a, pii b)
 {
     if(a.fi < b.fi) return true;
