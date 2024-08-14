@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"/home/luongthang0105/CP/CodeTour/2024/A.cpp","tests":[{"id":1718457129048,"input":"7 5\n10 7\n3 2\n9 3\n2 5\n7 3\n1 9\n6 6\n2\n1\n5\n8\n4\n","output":"3\n0\n21\n37\n19\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/luongthang0105/CP/CodeTour/2024/A.cpp","group":"local","local":true}

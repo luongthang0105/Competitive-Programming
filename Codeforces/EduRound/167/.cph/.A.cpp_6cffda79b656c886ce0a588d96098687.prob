@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"/home/luongthang0105/CP/Codeforces/EduRound/167/A.cpp","tests":[{"id":1720533988456,"input":"5\n24 42\n-2 -1\n-1 -2\n0 -50\n15 0\n","output":"YES\nYES\nNO\nNO\nYES\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/luongthang0105/CP/Codeforces/EduRound/167/A.cpp","group":"local","local":true}

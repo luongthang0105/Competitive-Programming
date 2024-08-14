@@ -1,0 +1,1 @@
+{"name":"Local: tjalg","url":"/home/luongthang0105/CP/VNOJ/SCC/tjalg.cpp","tests":[{"id":1715694672492,"input":"3 2\n1 2\n2 3\n","output":"3"},{"id":1715694688842,"input":"3 3\n1 2\n2 3\n3 1","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/luongthang0105/CP/VNOJ/SCC/tjalg.cpp","group":"local","local":true}
