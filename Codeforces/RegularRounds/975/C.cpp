@@ -58,15 +58,20 @@ int main()
         ll l = 1LL, r = n;
         int ans = 0;
 
-        while (l <= r) {
-            ll mid = (l + r) / 2LL;
-            // cout << "mid: " << mid << endl;
-            if (ok(max_cnt, mid, total, k)) {
-                l = mid + 1;
-                ans = mid;
-            } else {
-                r = mid - 1;
+        while (r >= 0) {
+            if (ok(max_cnt, r, total, k)) {
+                ans = r;
+                break;
             }
+            r--;
+            // ll mid = (l + r) / 2LL;
+            // // cout << "mid: " << mid << endl;
+            // if (ok(max_cnt, mid, total, k)) {
+            //     l = mid + 1;
+            //     ans = mid;
+            // } else {
+            //     r = mid - 1;
+            // }
         }
 
         cout << ans << endl;
