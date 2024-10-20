@@ -22,11 +22,12 @@ int f(int a, int b, int c, int n) {
 
 int main() {
     // Providing a seed value
-	srand((unsigned) time(NULL));
+    unsigned seed = (unsigned) time(NULL);
+	srand(seed);
     // freopen("A.inp", "w", stdout);
-    int numTests = 100;
-    int boundNum = 1000;
-    int boundN = 1000000;
+    int numTests = 1000;
+    int boundNum = 10000;
+    int boundN = 10;
     for (int i = 0; i < numTests; ++i) {
         int a = rand() % boundNum + 1;
         int b = rand() % boundNum + 1;
@@ -40,11 +41,16 @@ int main() {
         system("./bruteA");
         system("./A");
         
-        system("diff -w A.out A.ans");
-        // if (system("diff -w A.out A.ans")) {
-        //     cout << "Wrong answer test " << i + 1 << endl;
-        // } else {
-        //     cout << "Correct on test " << i + 1 << endl;
-        // }
+        int retval = system("diff -w A.out A.ans");
+        cout << "retval = " << retval << endl;
+        if (retval != 0) {
+            cout << "Wrong answer test " << i + 1 << endl;
+            break;
+        } else {
+            cout << "Correct on test " << i + 1 << endl;
+        }
+        cout << "Finished test " << i + 1 << endl;
     }
+    cout << "seed is: " << seed << endl;
+
 }
