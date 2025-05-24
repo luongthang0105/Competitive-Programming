@@ -1,0 +1,29 @@
+6 6
+ABC
+BDD
+FDC
+BF
+BF
+CEF
+
+23 5
+WMU
+SI
+MI
+TTT
+XT
+
+
+6 4
+ACCC 
+BCCA 
+DBHHH
+EF
+
+
+
+
+
+
+
+
